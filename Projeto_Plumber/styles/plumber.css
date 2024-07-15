@@ -246,6 +246,9 @@ body{
 
 
 .botao2{
+    position: relative;
+    left: 3em;
+    bottom: 5em;
     color: var(--branco-principal);
     background-color: var(--azul-baby);
     font-family: var(--fonte-principal);
@@ -256,8 +259,14 @@ body{
     margin: 2.5em 39.5em;
     text-align: center;
     border: 3px solid var(--branco-principal);
+    transition: all 0.3s ease-in-out;
 }
 
+.botao2:hover{
+    background-color: var(--cor-botoes);
+    box-shadow: 0 0 0 2px rgb(51, 135, 204), 8px 8px 0 0 rgb(3, 68, 143);
+    transform: scale(1.1);
+}
 
 .sozinho{
     position: relative;
