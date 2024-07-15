@@ -1,0 +1,389 @@
+/* Trabalhando na responsividade do site */
+*{                /* Forma de utilizar o RESET CSS */
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --fonte-principal: 'Poppins', sans-serif;
+
+    --branco-principal: #FFFFFF;
+    --azul-marinho: #19435A;
+    --azul-baby: #0e9ced;
+    --cor-botoes: #50B2EA;
+}
+@media screen and (max-width:720px ){
+    
+    /*First section*/
+    .container__logo__titulo{
+        scale: 35%;
+        position:relative;
+        top: -0.4em;
+    }
+
+    .container__texto1{
+        scale: 40%;
+        position: relative;
+        bottom: 4.5em;
+        left: -2em;
+        font-size: 20px;
+        width: 140%;
+    }
+
+    .container__texto2{
+        background: rgba(0, 0, 0, 0.3);
+        border: 2px var(--branco-principal) solid;
+        scale: 28%;
+        bottom: 10.3em;
+        left: -11.4em;
+        width: 210%;
+        font-size: 18px;
+    }
+
+    .container__opcoes{
+        scale: 32%;
+        position: relative;
+        bottom: 8.13em;
+        left: 1.8em;
+        gap:1px
+    }
+
+    .container__botao{
+        position: relative;
+        top: -79.6em;
+        left: 14.5em;
+        margin:0 -1em;
+        padding:0 1em;
+        font-size: 6px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container__botao:hover{
+        background-color: var(--cor-botoes);
+        box-shadow: 0 0 0 0px rgb(51, 135, 204), 0px 0px 0 0 rgb(3, 68, 143);
+        transform: scale(4.1);
+    }
+
+
+
+    /*Second section*/
+    .sobre__nos{
+        position: relative;
+        bottom: 9.7em;
+        height: 40vh;
+    }
+
+    .sobre__nos__texto{
+        scale: 20%;
+        position: relative;
+        right: 12.9em;
+        bottom: 14em;
+        height: 210vh;
+    }
+
+    .sobre__nos__texto__texto__titulo{
+        scale: 31%;
+        width: 220%;
+        position: relative;
+        bottom: 21em;
+        right: 3.5em;
+        font-size: 50px;
+    }
+
+    .paragraph{
+        scale: 80%;
+        width: 150%;
+        position: relative;
+        bottom: 122.5em;
+        left: -5.8em;
+        font-size: 9px;
+    }
+
+    .lista{
+        width: 153%;
+        scale: 50%;
+        position: relative;
+        bottom: 35em;
+        right: 4.9em;
+    }
+
+    .jacob__plamber{
+        scale: 20%;
+        position: relative;
+        bottom: 24.52em;
+        left: 1.40em;
+        border-radius: 49px;
+        border: 6px solid var(--branco-principal);
+    }
+
+    .sozinho{
+        position: relative;
+        top: -180em;
+        left: 9.6em;
+        margin:0 -1em;
+        padding:1 1em;
+        font-size: 7.2px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    
+    /*Third section*/
+    .servicos{
+        position: relative;
+        height: 60vh;
+        bottom: 9.69em;
+        background-color: var(--azul-baby);
+        background-image: linear-gradient(to bottom, var(--azul-baby) 100%, var(--branco-principal) 44.5%);
+    }
+
+    .canos{
+        width: 100%;
+        max-width: 80em;
+        height: 22vh;
+        opacity: 0%;
+    }
+
+    .servico__texto__titulo{
+        scale: 40%;
+        position: relative;
+        top: 6.6em;
+        right: 12.8em;
+    }
+
+    .servicos__imagens__lista{
+        scale: 44%;
+        position: relative;
+        bottom: 4.5em;
+    }
+
+    .servicos__chave__inglesa{
+        position: relative;
+        scale: 100%;
+        bottom: 2em;
+        left: 1em;
+    }
+
+    .small__key1{
+        scale: 90%;
+        position: relative;
+        left: 1em;
+        bottom: 1em;
+    }
+
+    .small__key2{
+        scale: 90%;
+        position: relative;
+        left: 6em;
+        bottom: 0.7em;
+    }
+
+    .small__key3{
+        scale: 90%;
+        position: relative;
+        left: -3.9em;
+        top: 5.5em;
+    }
+
+    .small__key4{
+        scale: 90%;
+        position: relative;
+        left: 1em;
+        bottom: -5.7em;
+    }
+
+    .retangulo{
+        scale: 70%;
+        position: relative;
+        bottom: 2em;
+    }
+
+    .ret1{
+        scale: 60%;
+        position: relative;
+        bottom:3.8em;
+        left: 1em;
+    }
+
+    .ret2{
+        scale: 60%;
+        position: relative;
+        bottom:3.5em;
+        left: 6em;
+    }
+
+    .ret3{
+        scale: 60%;
+        position: relative;
+        bottom:-2.7em;
+        left: -3.9em;
+    }
+
+    .ret4{
+        scale: 60%;
+        position: relative;
+        bottom:-2.9em;
+        left: 1em;
+    }
+
+    .servicos__imagens__lista__subtitulo{
+        scale: 80%;
+    }
+
+    .titulo1{
+        position: relative;
+        top: -10.6em;
+        left: 2.6em;
+        color: var(--branco-principal);
+    }
+
+    .titulo2{
+        position: relative;
+        width: 110%;
+        top: -10em;
+        left: 13em;
+        color: var(--branco-principal);
+    }
+
+    .titulo3{
+        position: relative;
+        top: 3.5em;
+        width: 130%;
+        left: -9.1em;
+        color: var(--branco-principal);
+    }
+
+    .titulo4{
+        position: relative;
+        top: 4.2em;
+        left: 2.4em;
+        color: var(--branco-principal);
+    }
+
+    .texto1{
+        font-size: 15px;
+        width: 140%;
+        position: relative;
+        top: -14.8em;
+        left: 1.6em;
+        hyphens:auto;
+        color: black;
+    }
+
+    .texto2{
+        font-size: 15px;
+        width: 160%;
+        position: relative;
+        top: -14em;
+        left: 14em;
+        hyphens:auto;
+        color: black;
+    }
+
+    .texto3{
+        font-size: 15px;
+        width: 160%;
+        position: relative;
+        top: 6em;
+        left: -14.5em;
+        hyphens:auto;
+        color: black;
+    }
+
+    .texto4{
+        font-size: 15px;
+        width: 160%;
+        position: relative;
+        top: 6.8em;
+        left: -2em;
+        hyphens:auto;
+        color: black;
+    }
+
+    .finish{
+        font-size: 10px;
+        position: relative;
+        padding: 0.1em 0.2em;
+        right: 34em;
+        bottom: 29em;
+        transition: all 0.3s ease-in-out;
+        opacity: 0%;
+    }
+
+    /*Fourth section*/
+    .comentarios{
+        height: 100vh;
+        position: relative;
+        bottom: 9.7em;
+    }
+
+    .comentarios__titulo{
+        scale: 40%;
+        position: relative;
+        top: -0.2em;
+        right: 0.1em;
+    }
+
+    .titulocomentario{
+        scale: 40%;
+        position: relative;
+        top: 10em;
+        left: 10em;
+    }
+
+    .container__comentarios{
+        top: 3.4em;
+        position: relative;
+        scale: 80%;
+        gap: 0.1px;
+        margin: -1em;
+    }
+    
+    .container__comentario1{
+        display: flex;
+        scale: 58%;
+        flex-direction: column;
+        position: relative;
+        bottom: 8em;
+    }
+
+    .coments{
+        position: relative;
+        top: -12.3em;
+    }
+
+    /*Fifth section*/
+    .contato{
+        height: 50vh;
+        background-color: var(--branco-principal);
+        position: relative;
+        bottom: 9.9em;
+    }
+
+    .contato1{
+        position: relative;
+        top: -2em;
+        width: 160%;
+        right: 1.7em;
+    }
+
+    .formas__contato{
+        scale: 70%;
+        position: relative;
+        right: 5em;
+        bottom: -1em;
+    }
+
+    /*Rodape section*/
+    .rodape{
+        position: relative;
+        bottom: 10em;
+        height: 10vh;
+    }
+    
+    .rodape__texto{
+        font-size: 12px;
+        position: relative;
+        top: -1em;
+    }
+}

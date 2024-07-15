@@ -1,0 +1,145 @@
+/* Trabalhando na responsividade do site */
+
+@media screen and (min-width:1537px ){ /* o minimo tem que ser este porque foi a partir deste que consegui diferenciar MEU notebook com meu monitor de 27'' */
+
+    /*First section*/
+    .container__logo__titulo{
+        position: relative;
+        top: 1em;
+    }
+
+    .container__texto1{
+        position: relative;
+        top: 0.5em;
+    }
+
+    .container__texto2{
+        text-align: justify;
+        position: relative;
+        left: 40.9em;
+        top: 4em;
+    }
+
+    .container__opcoes{
+        position: relative;
+        top: 2em;
+    }
+
+    .container__botao{
+        position: relative;
+        top: 9em;
+    }
+
+
+
+    /*Second section*/
+    .sobre__nos{
+        height: 100vh;
+        position: relative;
+        bottom: 0.95em;
+    }
+
+    .sobre__nos__texto{
+        position: relative;
+        width: 29.3em;
+    }
+
+    .sobre__nos__texto__texto{
+        position: relative;
+        width: 109%;
+        left: 2.5em;
+    }
+
+    .sobre__nos__texto__texto__titulo{
+        position: relative;
+        right: 3.5em;
+    }
+
+    .jacob__plamber{
+        position: relative;
+        right: 2em;
+    }
+
+    .sozinho{
+        position: relative;
+        left: 12.8em;
+        top: 6em;
+    }
+
+
+
+    /*Third section*/
+    .servicos{
+        position: relative;
+        bottom: 0.95em;
+    }
+
+    .canos{
+        height: 8.75em;
+    }
+
+    .servico__texto{
+        position: relative;
+        left: 17.5em;
+        bottom: 8em;
+        margin-right: 200em;
+    }
+
+    .servicos__imagens__lista{
+        position: relative;
+        bottom: 6em;
+    }
+
+    .descricao{
+        width: 56%;
+    }
+
+    .descricao1{
+        position: relative;
+        left: 8.7em;
+    }
+
+    .descricao2{
+        position: relative;
+        left: 10.8em;
+    }
+
+    .descricao3{
+        position: relative;
+        left: 8.8em;
+    }
+
+    .descricao4{
+        position: relative;
+        left: 8.6em;
+    }
+
+    .botao{
+        position: relative;
+        left: 12em;
+        top: 1em;
+    }
+
+
+
+    /*Fourth section*/
+    .formas__contato{
+        position: relative;
+        left: -37.6em;
+        top: -12em;
+        margin-right:10em ;
+    }
+
+
+
+    /*Rodape*/
+    .rodape{
+        top: -2em;
+        margin-bottom: -20em;
+    }
+
+    .rodape__texto{
+        position: relative;
+        top: 3.8em;
+    }
+}   
