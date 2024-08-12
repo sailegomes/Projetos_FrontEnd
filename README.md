@@ -9,3 +9,5 @@
 - **PROJETO ALURABOOKS (Feito com curso da Alura)**
 ![image](https://github.com/user-attachments/assets/c28b489d-aeee-4839-9ba5-c3b025eda668)
 
+- **PROJETO OPTIMUSTECH (#7DaysOfCode da Alura)
+![optyimus](https://github.com/user-attachments/assets/69b06cb7-78a5-4aa3-8ac4-e0adbae8c795)
