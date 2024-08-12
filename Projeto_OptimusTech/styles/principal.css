@@ -1,0 +1,27 @@
+@import url('../styles/cabecalho.css');
+@import url('../styles/banner.css');
+@import url('../styles/talentos.css');
+@import url('../styles/vagas.css');
+@import url('../styles/depoimento.css');
+@import url('../styles/rodape.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor-de-fundo:#FFFFFF;
+    --cinza: #F9FAFB;
+    --cinza-alternativo: #667085;
+    --cinza-borda: #EAECF0;
+    --cinza-borda-email:#D0D5DD;
+    --cinza-direitos: #98A2B3;
+    --vermelho: #8E2424;
+    --preto:#101828;
+    --fundo-depoimento:#C31919;
+
+
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}

@@ -1,0 +1,56 @@
+.depoimento{
+    height: 60vh;
+    margin-top: 4em;
+}
+
+.depoimento__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__fundo{
+    position: relative;
+    background: rgba(195, 25, 25, 0.03);
+    padding: 4em 0;
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.depoimento__subtitulo{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--vermelho);
+}
+
+.depoimento__texto{
+    font-weight: 500;
+    font-size: 36px;
+    width: 90%;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.depoimento__nome__desenvolvedora{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.depoimento__profissao__desenvolvedora{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+
+
+@media screen and (min-width:1768px) {
+    .depoimento__texto{
+        width: 70%;
+    }
+}
